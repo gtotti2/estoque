@@ -1,4 +1,4 @@
-<?php $link = mysql_connect('127.0.0.1', 'root', 'root');
+<?php $link = mysql_connect('localhost', 'root', 'root');
 if (!$link) {
     die('Não foi possível conectar: ' . mysql_error());
 }
